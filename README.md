@@ -1,52 +1,43 @@
-# TWIST SWITCH - v1.0
+# TWIST SWITCH - v1.1
 
-<img src="assets/TWIST_SWITCH.png" width="400">  <img src="assets/INSTALLED.png" width="400"> 
+<img src="assets/TWIST_SWITCH_Front.JPG" width="300">  
 
-TWIST SWITCH is a light-weight vibration-resistant power switch: originally designed for combat robotics, but it's suitable for any application that requires small form-factor power switch. 
+The TWIST SWITCH is a rugged manual power cutoff for combat robotics and other high-power applications.
 
-Designed and built in [Christchurch, New Zealand ](https://www.google.co.nz/maps/place/Christchurch+New+Zealand) by Connor Benton, visit [cb-technology](https://www.cb-technology.co.nz/) for details.
+Designed to safely and reliably connect or disconnect power with a simple twist. 
+
+The switch uses a bolt to physically bridge power pads, forming a solid low-resistance connection that won’t shake loose under impact
+
+Large solder pads are present on the top and bottom allowing multiple nets to be easily soldered to the switched output.
+
+Designed and built in [Christchurch, New Zealand ](https://www.google.co.nz/maps/place/Christchurch+New+Zealand) by Connor Benton.
 
 ## SPECIFICATIONS
 
-- **Continuious Current - Rated:** 20A *(for more infomation see the Current Rating seciton)*
-- **Continuious Current - Max:** 25A
-- **Voltage Drop:** 0.5 V  *(at 12V, 20A)*
-- **Dimensions:** 10x30x7 mm
-- **Weight:** 2g *excluding wires*
-- **Power and Mounting Screw:** M2 
+- **Dimensions:** 10x30x4mm
+- **Weight:** 2g *excl wires*
+- **Power Screw:** M3
+- **Mounting Screw:** M2 
+- **Spacer Height:** 1.6mm 
+
+## PACKAGE INCLUDES
+
+- 1x TWIST SWITCH
+- 3x Spacer Plate
+- 2x Mounting Screws
 
 ## Installation
+<img src="assets/TWIST_SWITCH_MountExample.JPG" width="300"> 
 
-1. Drill the holes as per the provided hole pattern: 
-2. Testfit the TWIST SWITCH, checking for correct alignment and accessability prior to soldering the wires.
-3. Solder the battery wires to the mounting pads.
-   - The positive wires should be soldered to the topside. These pads are labelled +BATT and VCC for the battery and electronics connections respectively. 
-   - The negative wires do not NEED to be soldered to the switch, although pass-through pads are provided on the underside to simplify cable management.
-4. Mount the switch using the provided mounting hardware.
-   - The kit allows for mounting onto pannels up to 3mm thick. Mounting to thicker pannels requires the user to procure additional longer M2 fasteners.
-   - Take care not to overtighten the mount fasteners when installing: overtightenting can cause damage to the switch which will impact performance.
+### Product Layout
+<img src="assets/TWIST_SWITCH_Layout.png" width="300">  
 
-<img src="assets/MOUNT_TEMPLATE.png" width="700">
-  
-## Operation
+### Spacer Plate
+The provided spacer plates allow the user ultimate flexibility to mount the TWIST SWITCH how they like, enabling it to be mounted, up to 4.8mm, off the surface.
 
-###### Turning ON
+<img src="assets/TWIST_SWITCH_SpacerFront.JPG" width="300">  
+<img src="assets/TWIST_SWITCH_SpacerHeight.JPG" width="300">  
 
-1. Verify the power screw is in the OFF position
-2. Connect the battery 
-3. Using a screw driver, tightening the center (power) screw clockwise until it makes a good connection with the pads below. 
-   - It does not take much force to make a good connection: approximately 0.4[Nm] ≈ finger tight.
-5. Smash some bot! 
+## DISCLIAMER
 
-###### Turning OFF
-
-1. Turn the power screw counter-clockwise until your Power LED de-illuminates.
-   - It should only take a 1/4 turn to disconnect the power, although it is recommended to back the screw out one full rotation.
-
-## Current Rating
-The actual current that the switch can handle is determined by its temperature during operation; which is  **very** dependednt on the wires (gauge, length, and insulation) and avalible cooling. As use cases for this switch vary drastically, it is up the the user to spec and test the wires for their given application. 
-
-As a guide, a constant-current thermal test has been conducted to illistrate the switches thermal characteristics. 
-Note: This test has been conducted at constant current, resulting in a higher temperature than the pulse currents in many applications. 
-
-<img src="assets/TEMP_CURVE.png" width="600">
+This product, and all other cb-technology products, are intended for use in hobby projects, and for educational and experimental uses. These devices are not suitable for any application where human life or health or significant property value depend on their proper operation. cb-technology ltd are not responsible for any loss or damage incurred by the operation or failure of this product or any others. The specifications listed are accurate to the best of our knowledge but are not guaranteed in any way. The buyer assumes all responsibility for proper use, testing, and verification of this unit in any application. cb-technology ltd liability is limited to replacement of defective DOA units. By installing and using this unit you are agreeing to these terms. If you do not agree you may return any unused units for a refund.
